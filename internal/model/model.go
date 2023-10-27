@@ -14,5 +14,4 @@ type Note struct {
 	Text      string    `gorm:"varchar(255);not null" json:"text"`
 	UpdatedAt string    `json:"updated_at"`
 	CreatedAt string    `json:"created_at"`
-	Deleted   string    `json:"created_at"`
 }
